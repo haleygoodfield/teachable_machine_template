@@ -15,7 +15,7 @@ let video;
 // Variable for displaying the results on the canvas
 let label = "Model loading...";
 
-let imageModelURL = "https://teachablemachine.withgoogle.com/models/UvBGOUplA/";
+let imageModelURL = "https://teachablemachine.withgoogle.com/models/pih4---QK/";
 
 function preload() {
   ml5.setBackend('webgl');
@@ -39,7 +39,7 @@ function draw() {
   image(video, 0, 0);
 
   // Printing class with the highest probability on the canvas
-  fill(0, 255, 0);
+  fill('pink');
   textSize(32);
   text(label, 20, 50);
 }
